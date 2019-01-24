@@ -1,0 +1,16 @@
+## YAML Template.
+---
+#spring.datasource.url=jdbc:mysql://172.16.0.5:3306/crm?characterEncoding=utf8&useUnicode=true&autoReconnectForPools=true&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false
+#spring.datasource.username=crm
+#spring.datasource.password=QvrvwPTJ+E4RRGk
+#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+#spring.datasource.type=com.alibaba.druid.pool.DruidDataSource 
+
+spring:
+    datasource:
+        url: jdbc:mysql://172.16.0.5:3306/crm?characterEncoding=utf8&useUnicode=true&autoReconnectForPools=true&zeroDateTimeBehavior=convertToNull&serverTimezone=GMT%2B8&useSSL=false
+        username: crm
+        password: QvrvwPTJ+E4RRGk
+    jpa:
+        show-sql: true
+trace: true
