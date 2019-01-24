@@ -1,11 +1,14 @@
 target/
 build/
+bin/
 
 .settings
 .mvn
+.gradle
 .project
 .classpath
 .vscode
 .factorypath
 
 nbactions.xml
+**/gradle/wrapper/
